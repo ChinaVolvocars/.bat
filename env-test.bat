@@ -9,8 +9,9 @@
 
 set DIRNAME=%~dp0
 
-C:
-cd C:\Users\Tiger\Desktop\pythonProject
+set AUTO_UPLOAD_TOOL_PATH=C:\Users\Tiger\Desktop\pythonProject
+set UPLOAD_PYTHON_SCRIPT=%AUTO_UPLOAD_TOOL_PATH%\test.py
+echo %UPLOAD_PYTHON_SCRIPT%
 
 set ENVIRONMENT_DEVELOPMENT=4
 echo %ENVIRONMENT_DEVELOPMENT%
@@ -20,6 +21,6 @@ echo %BUILD_OUTPUTS_APK_DIR%
 
 echo Upload the test environment apk
 
-start test.py %BUILD_OUTPUTS_APK_DIR% %ENVIRONMENT_DEVELOPMENT%
+start %UPLOAD_PYTHON_SCRIPT% %BUILD_OUTPUTS_APK_DIR% %ENVIRONMENT_DEVELOPMENT%
 
 exit

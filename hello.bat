@@ -6,8 +6,7 @@ echo app path %APP_PATH%
 echo ddd %~dp0
 echo cccc %~n0
 
-C:
-cd C:\Users\Tiger\Desktop\pythonProject
+%UPLOAD_PYTHON_SCRIPT%
 
 set ENVIRONMENT_DEVELOPMENT=3
 echo %ENVIRONMENT_DEVELOPMENT%

@@ -16,14 +16,17 @@ set BUILD_OUTPUTS_APK_DIR=E:\20210603_CompanyCode\dt\community-yishenghuo-master
 echo %BUILD_OUTPUTS_APK_DIR%
 
 
-C:
-cd C:\Users\Tiger\Desktop\pythonProject
+set AUTO_UPLOAD_TOOL_PATH=C:\Users\Tiger\Desktop\pythonProject
+set UPLOAD_PYTHON_SCRIPT=%AUTO_UPLOAD_TOOL_PATH%\main.py
+echo %UPLOAD_PYTHON_SCRIPT%
 
-
+set AUTO_UPLOAD_TOOL_PATH=C:\Users\Tiger\Desktop\pythonProject
+set UPLOAD_PYTHON_SCRIPT=%AUTO_UPLOAD_TOOL_PATH%\main.py
+echo %UPLOAD_PYTHON_SCRIPT%
 
 echo Upload the development environment apk
 
-start main.py %BUILD_OUTPUTS_APK_DIR% %ENVIRONMENT_DEVELOPMENT%
+start %UPLOAD_PYTHON_SCRIPT% %BUILD_OUTPUTS_APK_DIR% %ENVIRONMENT_DEVELOPMENT%
 
 exit
 

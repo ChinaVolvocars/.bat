@@ -15,7 +15,7 @@ cd C:\Users\Tiger\Desktop\pythonProject
 set ENVIRONMENT_DEVELOPMENT=1
 echo %ENVIRONMENT_DEVELOPMENT%
 
-set BUILD_OUTPUTS_APK_DIR=E:\20210603_CompanyCode\dt\community-yishenghuo-master\app\build\outputs\apk
+set BUILD_OUTPUTS_APK_DIR=D:\xx-app-master\app\build\outputs\apk
 echo %BUILD_OUTPUTS_APK_DIR%
 
 echo Upload the production environment apk

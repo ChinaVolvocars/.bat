@@ -13,7 +13,7 @@ C:
 cd C:\Users\Tiger\Desktop\pythonProject
 
 set ENVIRONMENT_DEVELOPMENT=2
-set BUILD_OUTPUTS_APK_DIR=E:\20210603_CompanyCode\dt\community-yishenghuo-master\app\build\outputs\apk
+set BUILD_OUTPUTS_APK_DIR=D:\xx-app-master\app\build\outputs\apk
 echo %ENVIRONMENT_DEVELOPMENT%
 echo %BUILD_OUTPUTS_APK_DIR%
 

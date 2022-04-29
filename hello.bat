@@ -6,8 +6,8 @@ echo app path %APP_PATH%
 echo ddd %~dp0
 echo cccc %~n0
 
-C:
-cd C:\Users\Tiger\Desktop\pythonProject
+@REM C:
+@REM cd C:\Users\Tiger\Desktop\pythonProject
 
 set ENVIRONMENT_DEVELOPMENT=3
 echo %ENVIRONMENT_DEVELOPMENT%

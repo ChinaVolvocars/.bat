@@ -12,7 +12,7 @@ set DIRNAME=%~dp0
 set ENVIRONMENT_DEVELOPMENT=3
 echo %ENVIRONMENT_DEVELOPMENT%
 
-set BUILD_OUTPUTS_APK_DIR=E:\20210603_CompanyCode\dt\community-yishenghuo-master\app\build\outputs\apk
+set BUILD_OUTPUTS_APK_DIR=D:\xx-app-master\app\build\outputs\apk
 echo %BUILD_OUTPUTS_APK_DIR%
 
 

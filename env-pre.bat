@@ -9,16 +9,17 @@
 
 set DIRNAME=%~dp0
 
-C:
-cd C:\Users\Tiger\Desktop\pythonProject
-
 set ENVIRONMENT_DEVELOPMENT=2
 set BUILD_OUTPUTS_APK_DIR=D:\xx-app-master\app\build\outputs\apk
 echo %ENVIRONMENT_DEVELOPMENT%
 echo %BUILD_OUTPUTS_APK_DIR%
 
+set AUTO_UPLOAD_TOOL_PATH=C:\Users\Tiger\Desktop\pythonProject
+set UPLOAD_PYTHON_SCRIPT=%AUTO_UPLOAD_TOOL_PATH%\main.py
+echo %UPLOAD_PYTHON_SCRIPT%
+
 echo Upload the pre-issuance environment apk
 
-start main.py %BUILD_OUTPUTS_APK_DIR% %ENVIRONMENT_DEVELOPMENT%
+start %UPLOAD_PYTHON_SCRIPT% %BUILD_OUTPUTS_APK_DIR% %ENVIRONMENT_DEVELOPMENT%
 
-exit
+@REM exit
